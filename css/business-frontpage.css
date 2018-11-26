@@ -1,0 +1,69 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+ body {
+  padding-top: 54px;
+}
+
+h1,h2,h3,h4,h5{ font-family: 'Kanit', sans-serif; margin: 10px; }
+a{ font-family: 'Kanit', sans-serif; color:#ce1d23!important;   }
+
+
+@media (min-width: 1600px){
+  .container{
+    max-width: 1360px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+@media (max-width: 575px){
+  .newsingle{width: 100%!important;}
+}
+.clear{clear: both;}
+.logomag{ background-image: url('../images/GMAG-logo.png'); width:112px; height:43px; background-repeat: no-repeat;  }
+.navbar-nav a {color:#FFF!important;}
+.navbar-nav-nd a{ color:#444!important; }
+.nav-item{cursor: pointer!important;}
+.bg-redmag{ background-color: #ce1d23!important; color:#FFF!important;  }
+.bg-darkgray{ background-color: #575654!important; color:#FFF!important; }
+.bg-black{ background-color: #000!important; color:#FFF!important; }
+.text-redmag{ color: #ce1d23!important; }
+.headline{ border-left: 10px solid  #ce1d23!important; padding-left: 10px; }
+.jssora051 {display:block;position:absolute;cursor:pointer;}
+.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora051:hover {opacity:.8;}
+.jssora051.jssora051dn {opacity:.5;}
+.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+.jssorb031 {position:absolute;}
+.jssorb031 .i {position:absolute;cursor:pointer;}
+.jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
+.jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
+.jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
+.jssorb031 .i.idn {opacity:.3;}
+.wrap-desc{position: relative;}
+.btm-desc{position: absolute; bottom: 12px;  }
+.head-single{
+  margin: 0px auto;
+  padding: 5px 20px;
+}
+.newsingle{ width: 103%; }
+.newsingle::after{position: relative; float:right; content: " "; background-color: #575654!important; width: 200px; }
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  /*background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.card {
+  height: 100%;
+}
